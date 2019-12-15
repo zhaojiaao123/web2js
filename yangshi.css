@@ -1,0 +1,103 @@
+/*
+* @Author: dell
+* @Date:   2019-12-15 11:18:57
+* @Last Modified by:   dell
+* @Last Modified time: 2019-12-15 11:20:43
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,li{
+	list-style: none;
+}
+.top{
+	height: 23px;
+	background: #ccc;
+	background-image: url("a15.png");
+	background-repeat: no-repeat;
+	background-position: 230px;
+}
+.top1{
+	width: 900px;
+	height: 23px;
+	margin-left: 250px;
+	position: relative;
+	overflow: hidden;
+}
+.top2{
+	width: 1800px;
+	height: 23px;
+	position: absolute;
+	left: 0px;
+}
+.top3{
+	width: 900px;
+	height: 23px;
+	font-size: 13px;
+	color: red;
+	line-height: 22px;
+	overflow: hidden;
+	float: left;
+}
+.box{
+	width:1200px;
+	height: 380px;
+	border: 0;
+	margin:15px 100px 100px 100px;
+	position: relative;
+	overflow: hidden;
+}
+.a{
+	width: 8400px;
+	position: absolute;
+	left: -1200px;
+}
+.slide{
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+}
+.box>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: ;
+	top: 175px;
+	line-height: 50px;
+	background: rgb(255,0,0);
+	font-size:30px;
+	position: absolute;
+	opacity: 0;
+}
+
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+.nav{
+	position: absolute;
+	left: 490px;
+	bottom: 8px;
+
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background:#ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+	color: black;
+	font-size:13px;
+	text-align: center;
+}
+.nav .c1{
+	background:red;
+	color: white;
+}
